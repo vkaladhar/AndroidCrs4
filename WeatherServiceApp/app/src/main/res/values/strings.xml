@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherServiceApp</string>
+    <string name="name_string">Name</string>
+    <string name="speed_string">Speed</string>
+    <string name="deg_string">Degree</string>
+    <string name="temp_string">Temp</string>
+    <string name="humidity_string">Humidity</string>
+    <string name="sunrise_string">Sunrise</string>
+    <string name="sunset_string">Sunset</string>
+</resources>

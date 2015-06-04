@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+        <TextView
+        android:id="@+id/weather_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_alignParentTop="true"
+        />
+
+        <TextView
+        android:id="@+id/weather_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_below="@+id/weather_name"
+
+        />
+        <TextView
+        android:id="@+id/weather_deg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_below="@+id/weather_speed"
+        />
+        <TextView
+        android:id="@+id/weather_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_below="@+id/weather_deg"
+        />
+        <TextView
+        android:id="@+id/weather_humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_below="@+id/weather_temp"
+        />
+        <TextView
+        android:id="@+id/weather_sunrise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_below="@+id/weather_humidity"
+        />
+        <TextView
+        android:id="@+id/weather_sunset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_below="@+id/weather_sunrise"
+        />
+
+
+
+</RelativeLayout>
